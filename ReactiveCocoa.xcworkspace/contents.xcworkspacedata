@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ReactiveCocoa-macOS.playground">
-   </FileRef>
-   <FileRef
       location = "group:ReactiveCocoa-tvOS.playground">
    </FileRef>
    <FileRef
@@ -12,14 +9,5 @@
    </FileRef>
    <FileRef
       location = "group:ReactiveCocoa.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/ReactiveSwift/ReactiveSwift.xcodeproj">
    </FileRef>
 </Workspace>
