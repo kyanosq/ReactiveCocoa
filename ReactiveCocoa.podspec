@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReactiveCocoa"
-  s.version      = "20.1.1"
+  s.version      = "20.1.2"
   s.summary      = "Streams of values over time"
   s.description  = <<-DESC
                    ReactiveCocoa (RAC) is a Cocoa framework built on top of ReactiveSwift. It provides APIs for using ReactiveSwift with Apple's Cocoa frameworks.
@@ -14,9 +14,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/kyanosq/ReactiveCocoa.git", :tag => "#{s.version}" }
   s.source_files = "ReactiveCocoa/*.{swift,h,m}", "ReactiveCocoa/Shared/*.{swift}", "ReactiveCocoaObjC/**/*.{h,m}"
-  
-  s.resource_bundles = {"ReactiveCocoa" => ["ReactiveCocoa/PrivacyInfo.xcprivacy"]}
-
   
   s.public_header_files = "ReactiveCocoaObjC/include/ObjCRuntimeAliases.h"
   s.ios.source_files = "ReactiveCocoa/UIKit/*.{swift}", "ReactiveCocoa/UIKit/iOS/*.{swift}"
